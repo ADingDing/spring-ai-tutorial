@@ -1,0 +1,15 @@
+server:
+  port: ${SERVER_PORT:18081}  # 默认端口为18081，可以通过命令行参数SERVER_PORT覆盖
+
+spring:
+  application:
+    name: nacos-restfult
+
+  cloud:
+    # nacos注册中心配置
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        namespace: 4ad3108b-4d44-43d0-9634-3c1ac4850c8c # nacos3.*版本

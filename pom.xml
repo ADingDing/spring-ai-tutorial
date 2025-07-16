@@ -39,6 +39,14 @@
         <module>graph/simple</module>
         <module>graph/mcp-node</module>
         <module>graph/parallel-node</module>
+        <module>mcp/client/mcp-auth-client</module>
+        <module>mcp/server/mcp-auth-server</module>
+        <module>other/restful</module>
+        <module>other/nacos-swagger-restfult</module>
+        <module>mcp/server/mcp-nacos-parse-swagger-server</module>
+        <module>mcp/server/mcp-gateway-server</module>
+        <module>other/nacos-restful</module>
+        <module>mcp/client/mcp-recovery-client</module>
     </modules>
 
     <properties>
@@ -55,7 +63,6 @@
         <jedis.version>5.2.0</jedis.version>
         <mysql.version>8.0.32</mysql.version>
         <sqlite.verson>3.49.1.0</sqlite.verson>
-
 
         <!-- Spring AI Alibaba -->
         <spring-ai-alibaba.version>1.0.0.2</spring-ai-alibaba.version>
@@ -84,6 +91,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 

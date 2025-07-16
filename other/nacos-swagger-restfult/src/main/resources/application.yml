@@ -1,0 +1,19 @@
+server:
+  port: ${SERVER_PORT:18081}  # 默认端口为18081，可以通过命令行参数SERVER_PORT覆盖
+
+spring:
+  application:
+    name: nacos-swagger-restfult
+
+  cloud:
+    # nacos注册中心配置
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        namespace: 9ba5f1aa-b37d-493b-9057-72918a40ef35 # nacos2.*版本
+## 配置swagger文档的访问路径
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

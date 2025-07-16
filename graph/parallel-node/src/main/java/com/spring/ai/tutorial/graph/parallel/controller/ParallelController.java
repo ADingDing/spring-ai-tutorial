@@ -4,6 +4,7 @@ import com.alibaba.cloud.ai.graph.CompiledGraph;
 import com.alibaba.cloud.ai.graph.OverAllState;
 import com.alibaba.cloud.ai.graph.RunnableConfig;
 import com.alibaba.cloud.ai.graph.StateGraph;
+import com.alibaba.cloud.ai.graph.exception.GraphRunnerException;
 import com.alibaba.cloud.ai.graph.exception.GraphStateException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,7 +38,7 @@ public class ParallelController {
     public Map<String, Object> expandAndTranslate(@RequestParam(value = "query", defaultValue = "你好，很高兴认识你，能简单介绍一下自己吗？", required = false) String query,
                                       @RequestParam(value = "expander_number", defaultValue = "3", required = false) Integer  expanderNumber,
                                       @RequestParam(value = "translate_language", defaultValue = "english", required = false) String translateLanguage,
-                                      @RequestParam(value = "thread_id", defaultValue = "yingzi", required = false) String threadId){
+                                      @RequestParam(value = "thread_id", defaultValue = "yingzi", required = false) String threadId) throws GraphRunnerException {
         RunnableConfig runnableConfig = RunnableConfig.builder().threadId(threadId).build();
         Map<String, Object> objectMap = new HashMap<>();
         objectMap.put("query", query);

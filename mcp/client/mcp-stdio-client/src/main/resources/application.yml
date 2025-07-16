@@ -21,13 +21,4 @@ spring:
         request-timeout: 30s
         type: SYNC  # or ASYNC for reactive applications
         stdio:
-          connections:
-            server1:
-              command: java
-              args:
-                - -jar
-                - /Users/guotao/IdeaProjects/spring-ai-tutorial/mcp/server/mcp-stdio-server/target/mcp-stdio-server-1.0-SNAPSHOT.jar
-                - --port=20000
-                - --mode=production
-#        stdio:
-#          servers-configuration: classpath:mcp-servers.json
+          servers-configuration: classpath:mcp-servers.json
