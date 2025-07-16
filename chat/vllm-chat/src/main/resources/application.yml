@@ -1,0 +1,15 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: openai-chat
+
+  ai:
+    openai:
+      api-key: ${ARK_API_KEY:your-api-key}
+      base-url: http://192.168.20.114:3011
+      chat:
+        options:
+          model: ${ARK_MODEL_ID:Qwen2.5-VL-32B}
+          temperature: 0.2
