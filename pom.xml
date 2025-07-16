@@ -12,6 +12,7 @@
         <module>chat/alibaba-chat</module>
         <module>chat/openai-chat</module>
         <module>chat/deepseek-chat</module>
+        <module>chat/vllm-chat</module>
         <module>advisor/advisor-base</module>
         <module>tool-calling</module>
         <module>structured-output</module>
@@ -25,6 +26,7 @@
         <module>mcp/server/mcp-webflux-server</module>
         <module>mcp/client/mcp-webflux-client</module>
         <module>mcp/server/mcp-stdio-server</module>
+        <module>mcp/server/mcp-server</module>
         <module>mcp/client/mcp-stdio-client</module>
         <module>vector/vector-redis</module>
         <module>rag/rag-etl-pipeline</module>
