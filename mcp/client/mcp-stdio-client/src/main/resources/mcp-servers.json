@@ -1,11 +1,16 @@
 {
   "mcpServers": {
-    "timeServer": {
-      "command": "java",
+    "tavily-mcp": {
+      "command": "npx",
       "args": [
-        "-jar",
-        "/Users/guotao/IdeaProjects/spring-ai-tutorial/mcp/server/mcp-stdio-server/target/mcp-stdio-server-1.0-SNAPSHOT.jar"
-      ]
+        "-y",
+        "tavily-mcp@0.1.4"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "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"
+      },
+      "disabled": true,
+      "autoApprove": []
     }
   }
 }

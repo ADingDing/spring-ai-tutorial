@@ -27,14 +27,24 @@
     <file url="file://$PROJECT_DIR$/graph/simple/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/stream-node/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/stream-node/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/mcp-auth-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/mcp-auth-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos2-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos2-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos3-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos3-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/mcp-recovery-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/mcp-recovery-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-stdio-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-stdio-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-webflux-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-webflux-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/server/mcp-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/server/mcp-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/server/mcp-gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/server/mcp-gateway-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos-parse-swagger-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos-parse-swagger-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos2-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos2-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos3-server/src/main/java" charset="UTF-8" />
@@ -49,6 +59,12 @@
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-webmvc-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observability/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observability/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/nacos-restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/nacos-restful/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/nacos-swagger-restfult/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/nacos-swagger-restfult/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/restful/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rag/rag-elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rag/rag-elasticsearch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rag/rag-etl-pipeline/src/main/java" charset="UTF-8" />

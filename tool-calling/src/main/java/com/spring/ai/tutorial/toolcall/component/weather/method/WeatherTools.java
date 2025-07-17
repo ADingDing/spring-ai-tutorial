@@ -39,7 +39,7 @@ public class WeatherTools {
                 .build();
     }
 
-    @Tool(description = "Use api.weather to get weather information.")
+    @Tool(description = "Use api.weather to get weather information.", returnDirect = true)
     public Response getWeatherServiceMethod(@ToolParam(description = "City name") String city,
                                             @ToolParam(description = "Number of days of weather forecast. Value ranges from 1 to 14") int days) {
 

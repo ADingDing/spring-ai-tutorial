@@ -43,7 +43,7 @@ public class WeatherController {
     }
 
     /**
-     * 调用工具版 - method
+     * 调用工具版 - method + returnDirect(true)
      */
     @GetMapping("/call/tool-method")
     public String callToolMethod(@RequestParam(value = "query", defaultValue = "请告诉我北京1天以后的天气") String query) {

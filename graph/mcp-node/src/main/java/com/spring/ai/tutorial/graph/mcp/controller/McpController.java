@@ -4,6 +4,7 @@ import com.alibaba.cloud.ai.graph.CompiledGraph;
 import com.alibaba.cloud.ai.graph.OverAllState;
 import com.alibaba.cloud.ai.graph.RunnableConfig;
 import com.alibaba.cloud.ai.graph.StateGraph;
+import com.alibaba.cloud.ai.graph.exception.GraphRunnerException;
 import com.alibaba.cloud.ai.graph.exception.GraphStateException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,7 +36,7 @@ public class McpController {
 
     @GetMapping("/call")
     public Map<String, Object> call(@RequestParam(value = "query", defaultValue = "北京时间现在几点钟", required = false) String query,
-                                      @RequestParam(value = "thread_id", defaultValue = "yingzi", required = false) String threadId){
+                                      @RequestParam(value = "thread_id", defaultValue = "yingzi", required = false) String threadId) throws GraphRunnerException {
         RunnableConfig runnableConfig = RunnableConfig.builder().threadId(threadId).build();
         Map<String, Object> objectMap = new HashMap<>();
         objectMap.put("query", query);

@@ -1,0 +1,28 @@
+server:
+  port: ${SERVER_PORT:19000}
+spring:
+  application:
+    name: mcp-nacos-parse-swagger-server
+
+  cloud:
+    # nacos注册中心配置
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        namespace: 9ba5f1aa-b37d-493b-9057-72918a40ef35
+
+  ai:
+    mcp:
+      server:
+        name: mcp-server-provider
+
+# 调试日志
+logging:
+  level:
+    io:
+      modelcontextprotocol:
+        client: DEBUG
+        spec: DEBUG
+        server: DEBUG
