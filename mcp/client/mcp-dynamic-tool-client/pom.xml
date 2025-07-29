@@ -11,12 +11,7 @@
     </parent>
 
     <groupId>com.spring.ai.tutorial.mcp.client</groupId>
-    <artifactId>mcp-recovery-client</artifactId>
-
-    <properties>
-        <!-- Spring AI Alibaba -->
-        <spring-ai-alibaba.version>1.0.0.3-SNAPSHOT</spring-ai-alibaba.version>
-    </properties>
+    <artifactId>mcp-dynamic-tool-client</artifactId>
 
     <dependencies>
 
@@ -38,12 +33,6 @@
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-starter-mcp-client-webflux</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba.cloud.ai</groupId>
-            <artifactId>spring-ai-alibaba-starter-mcp-recovery-client</artifactId>
-            <version>${spring-ai-alibaba.version}</version>
         </dependency>
 
     </dependencies>

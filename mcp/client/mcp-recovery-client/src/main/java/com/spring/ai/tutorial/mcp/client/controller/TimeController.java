@@ -1,6 +1,6 @@
 package com.spring.ai.tutorial.mcp.client.controller;
 
-import com.alibaba.cloud.ai.autoconfigure.mcp.client.McpAsyncRecovery;
+import com.alibaba.cloud.ai.mcp.client.McpAsyncRecovery;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
