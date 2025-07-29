@@ -6,7 +6,7 @@ package com.spring.ai.tutorial.rag.model;
  */
 public class Constant {
 
-    public static final String PREFIX = "classpath:data/";
+    public static final String PREFIX = "classpath:data";
 
     public static final String TEXT_FILE_PATH = PREFIX + "/text.txt";
 

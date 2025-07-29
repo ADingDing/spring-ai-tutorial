@@ -40,4 +40,25 @@ public class HttpRequestUtil {
         log.info(body);
         return body;
     }
+
+    public static String postRequest(String authorization, String url, JSONObject object, RestTemplate restTemplate, String cookie) {
+        log.info("url:{}，param:{}，token：{}", url, JSON.toJSONString(object), authorization);
+
+        HttpHeaders headers = new HttpHeaders();
+        if (StrUtil.isNotBlank(authorization)) {
+            headers.set("Authorization", authorization);
+        }
+        if (StrUtil.isNotBlank(cookie)) {
+            headers.set("Cookie", cookie);
+        }
+        headers.setContentType(MediaType.APPLICATION_JSON);
+
+        // 创建请求体，这里以JSON字符串为例
+        HttpEntity<String> request = new HttpEntity<String>(object.toJSONString(), headers);
+        ResponseEntity<String> responseEntity = restTemplate.postForEntity(url, request, String.class);
+        String body = responseEntity.getBody();
+        log.info(body);
+        return body;
+    }
+
 }

@@ -2,6 +2,7 @@ package com.senter.agent.server;
 
 import com.senter.agent.server.service.DospAllService;
 import com.senter.agent.server.service.DospNewService;
+import com.senter.agent.server.service.NWService;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
 import org.springframework.boot.SpringApplication;
@@ -21,9 +22,14 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @Bean
+    //    @Bean
     public ToolCallbackProvider tools(DospAllService dospAllService, DospNewService dospNewService) {
         return MethodToolCallbackProvider.builder().toolObjects(dospAllService, dospNewService).build();
+    }
+
+    @Bean
+    public ToolCallbackProvider toolsNW(NWService nwService) {
+        return MethodToolCallbackProvider.builder().toolObjects(nwService).build();
     }
 
     @Bean
