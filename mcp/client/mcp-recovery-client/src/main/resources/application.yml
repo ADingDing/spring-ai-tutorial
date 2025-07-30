@@ -27,17 +27,16 @@ spring:
       mcp:
         recovery:
           enabled: true
+          ping: 5s
           delay: 5s
           stop: 10s
 
 # 打印日志
-## debug级别
 logging:
   level:
     com:
       alibaba:
         cloud:
           ai:
-            autoconfigure:
-              mcp:
-                client: DEBUG
+            mcp:
+              client: DEBUG

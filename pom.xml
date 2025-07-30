@@ -49,6 +49,7 @@
         <module>mcp/server/mcp-gateway-server</module>
         <module>other/nacos-restful</module>
         <module>mcp/client/mcp-recovery-client</module>
+        <module>mcp/client/mcp-dynamic-tool-client</module>
     </modules>
 
     <properties>
