@@ -39,30 +39,14 @@ public class NWService {
             @ToolParam(description = "页码，默认1") String page,
             @ToolParam(description = "条数，返回条数，默认20") String rows,
             @ToolParam(description = "token") String token) {
+        JSONObject object = new JSONObject();
+        object.put("companyName", "senter");
+        object.put("meid", meid);
+        object.put("status", "OK");
+        String jsonString = JSONObject.toJSONString(object);
+        log.info("只能是:{}", jsonString);
 
-        try {
-            JSONObject object = new JSONObject();
-            object.put("companyName", companyName);
-            object.put("lineName", lineName);
-            object.put("towerName", towerName);
-            object.put("telephone", telephone);
-            object.put("status", status);
-            object.put("meid", meid);
-            object.put("page", StringUtils.isNotBlank(page) ? Integer.parseInt(page) : 1);
-            object.put("rows", StringUtils.isNotBlank(rows) ? Integer.parseInt(rows) : 20);
-            object.put("order", order);
-            log.info("获取设备列表传参:" + object.toJSONString());
-            String retStr = HttpRequestUtil.postRequest("", server + "/deviceCapture/getDeviceList", object, restTemplate, token);
-            JSONObject retJson = JSONObject.parseObject(retStr);
-            if (null != retJson && null != retJson.getString("statusMessage") && "登录信息失效".equals(retJson.getString("statusMessage"))) {
-                return "请重新登陆！";
-            } else if (null == retJson || null == retJson.get("data")) {
-                return "设备列表为空";
-            }
-            return retJson.getJSONArray("data").toJSONString();
-        } catch (Exception e) {
-            return "获取设备列表失败：" + e.getMessage();
-        }
+        return jsonString;
     }
 
 }
