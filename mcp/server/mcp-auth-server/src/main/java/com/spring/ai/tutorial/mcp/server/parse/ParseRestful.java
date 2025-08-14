@@ -43,7 +43,6 @@ public class ParseRestful {
 
 
     public List<RestfulModel> getRestfulModels() {
-
         Parameter parameter = Parameter.builder()
                 .parameteNname("timeZoneId")
                 .description("time zone id, such as Asia/Shanghai")

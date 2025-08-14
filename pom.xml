@@ -50,6 +50,9 @@
         <module>other/nacos-restful</module>
         <module>mcp/client/mcp-recovery-client</module>
         <module>mcp/client/mcp-dynamic-tool-client</module>
+        <module>mcp/client/mcp-return-direct-client</module>
+        <module>graph/observe-langfuse</module>
+        <module>mcp/client/mcp-streamable-client</module>
     </modules>
 
     <properties>
@@ -58,7 +61,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Spring AI -->
-        <spring-ai.version>1.0.0</spring-ai.version>
+        <spring-ai.version>1.0.1</spring-ai.version>
 
         <!-- Spring Boot -->
         <spring-boot.version>3.4.5</spring-boot.version>
