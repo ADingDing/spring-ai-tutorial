@@ -1,0 +1,24 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: observe-langfuse
+  ai:
+    openai:
+      api-key: ${AI_DASHSCOPE_API_KEY}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      chat:
+        options:
+          model: qwen-max
+
+    alibaba:
+      graph:
+        observation:
+          enabled: true
+
+otel:
+  exporter:
+    otlp:
+      endpoint: "https://cloud.langfuse.com/api/public/otel"
+      headers:
+        Authorization: "Basic ${YOUR_BASE64_ENCODED_CREDENTIALS}"

@@ -10,32 +10,29 @@
         <relativePath>../../../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.spring.ai.tutorial.mcp.server</groupId>
-    <artifactId>mcp-gateway-server</artifactId>
+    <groupId>com.spring.ai.tutorial.mcp.client</groupId>
+    <artifactId>mcp-streamable-client</artifactId>
 
     <properties>
-        <!-- Spring AI Alibaba -->
-        <spring-ai-alibaba.version>1.0.0.3-SNAPSHOT</spring-ai-alibaba.version>
-        <mcp.version>0.11.0</mcp.version>
+        <spring-ai.version>1.1.0-SNAPSHOT</spring-ai.version>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.alibaba.cloud.ai</groupId>
-            <artifactId>spring-ai-alibaba-starter-mcp-gateway-nacos</artifactId>
-            <version>${spring-ai-alibaba.version}</version>
-        </dependency>
 
-        <dependency>
-            <groupId>io.modelcontextprotocol.sdk</groupId>
-            <artifactId>mcp</artifactId>
-            <version>${mcp.version}</version>
-        </dependency>
-
-        <!-- MCP Server WebFlux 支持（也可换成 WebMvc） -->
         <dependency>
             <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-mcp-server-webflux</artifactId>
+            <artifactId>spring-ai-autoconfigure-model-openai</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-autoconfigure-model-chat-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-mcp-client-webflux</artifactId>
+            <version>${spring-ai.version}</version>
         </dependency>
 
     </dependencies>

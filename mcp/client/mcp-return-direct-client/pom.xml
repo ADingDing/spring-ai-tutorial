@@ -10,19 +10,26 @@
         <relativePath>../../../pom.xml</relativePath>
     </parent>
 
-    <groupId>com.spring.ai.tutorial.mcp.server</groupId>
-    <artifactId>mcp-webflux-server</artifactId>
-
-<!--    <properties>-->
-<!--        <spring-ai.version>1.1.0-SNAPSHOT</spring-ai.version>-->
-<!--    </properties>-->
+    <groupId>com.spring.ai.tutorial.mcp.client</groupId>
+    <artifactId>mcp-return-direct-client</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-mcp-server-webflux</artifactId>
-<!--            <version>${spring-ai.version}</version>-->
+            <artifactId>spring-ai-autoconfigure-model-openai</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-autoconfigure-model-chat-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-mcp-client-webflux</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

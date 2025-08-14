@@ -19,6 +19,8 @@
     <file url="file://$PROJECT_DIR$/graph/human-node/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/mcp-node/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/mcp-node/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graph/observe-langfuse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graph/observe-langfuse/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/parallel-node/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/parallel-node/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/simple/src/main/java" charset="UTF-8" />
@@ -35,8 +37,12 @@
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos3-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-recovery-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-recovery-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/mcp-return-direct-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/mcp-return-direct-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-stdio-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-stdio-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/mcp-streamable-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/mcp-streamable-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-webflux-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-webflux-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-auth-server/src/main/java" charset="UTF-8" />
