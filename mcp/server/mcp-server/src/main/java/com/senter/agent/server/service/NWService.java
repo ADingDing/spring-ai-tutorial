@@ -28,7 +28,7 @@ public class NWService {
 
     @Tool(description = "获取设备信息，可输入单位名称、线路名称、杆塔名称、SIM卡、状态、设备编码、是否离线、返回条数，排序字段，正序倒序排序" +
             "，返回设备信息", returnDirect = true)
-    public String getDeviceList(
+    public JSONObject getDeviceList(
             @ToolParam(required = false, description = "单位名称") String companyName,
             @ToolParam(required = false, description = "线路名称") String lineName,
             @ToolParam(required = false, description = "杆塔名称") String towerName,
@@ -46,7 +46,8 @@ public class NWService {
         String jsonString = JSONObject.toJSONString(object);
         log.info("只能是:{}", jsonString);
 
-        return jsonString;
+//        return jsonString;
+        return object;
     }
 
 }
