@@ -16,10 +16,10 @@ import org.springframework.web.client.RestTemplate;
  * @since 2025/4/21 20:00
  */
 @SpringBootApplication
-public class Application {
+public class SenterServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(SenterServerApplication.class, args);
     }
 
     //    @Bean

@@ -26,15 +26,14 @@ public class NWService {
     @Value("${SERVER_FIGURE}")
     private String serverFigure;
 
-    @Tool(description = "获取设备信息，可输入单位名称、线路名称、杆塔名称、SIM卡、状态、设备编码、是否离线、返回条数，排序字段，正序倒序排序" +
-            "，返回设备信息", returnDirect = true)
+    @Tool(description = "获取设备信息，返回设备信息")
     public JSONObject getDeviceList(
             @ToolParam(required = false, description = "单位名称") String companyName,
             @ToolParam(required = false, description = "线路名称") String lineName,
             @ToolParam(required = false, description = "杆塔名称") String towerName,
             @ToolParam(required = false, description = "SIM卡,") String telephone,
             @ToolParam(required = false, description = "状态") String status,
-            @ToolParam(required = false, description = "设备编码") String meid,
+            @ToolParam(description = "设备编码") String meid,
             @ToolParam(description = "排序，默认asc，升序asc，降序desc") String order,
             @ToolParam(description = "页码，默认1") String page,
             @ToolParam(description = "条数，返回条数，默认20") String rows,
@@ -45,8 +44,19 @@ public class NWService {
         object.put("status", "OK");
         String jsonString = JSONObject.toJSONString(object);
         log.info("只能是:{}", jsonString);
-
 //        return jsonString;
+        return object;
+    }
+
+    @Tool(description = "获取公司信息，返回公司信息")
+    public JSONObject getCompanyDetail(
+            @ToolParam( description = "单位名称") String companyName,
+            @ToolParam(description = "token") String token) {
+        JSONObject object = new JSONObject();
+        object.put("companyName", "senter");
+        object.put("status", "OK");
+        String jsonString = JSONObject.toJSONString(object);
+        log.info("公司信息:{}", jsonString);
         return object;
     }
 

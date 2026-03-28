@@ -26,7 +26,7 @@
         <module>mcp/server/mcp-webflux-server</module>
         <module>mcp/client/mcp-webflux-client</module>
         <module>mcp/server/mcp-stdio-server</module>
-        <module>mcp/server/mcp-server</module>
+        <module>mcp/server/mcp-server-senter</module>
         <module>mcp/client/mcp-stdio-client</module>
         <module>vector/vector-redis</module>
         <module>rag/rag-etl-pipeline</module>
