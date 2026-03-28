@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: observe-langfuse
+  profiles:
+    # LangFuse可观测配置
+    include: observability
   ai:
     openai:
       api-key: ${AI_DASHSCOPE_API_KEY}
@@ -15,10 +18,3 @@ spring:
       graph:
         observation:
           enabled: true
-
-otel:
-  exporter:
-    otlp:
-      endpoint: "https://cloud.langfuse.com/api/public/otel"
-      headers:
-        Authorization: "Basic ${YOUR_BASE64_ENCODED_CREDENTIALS}"

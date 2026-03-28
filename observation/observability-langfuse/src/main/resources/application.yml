@@ -1,0 +1,43 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: observability-langfuse
+
+  ai:
+    openai:
+      api-key: ${DASHSCOPE_API_KEY}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      chat:
+        options:
+          model: qwen-max
+    chat:
+      observations:
+        log-prompt: true # Include prompt content in tracing (disabled by default for privacy)
+        log-completion: true # Include completion content in tracing (disabled by default)
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0 # Sample 100% of requests for full tracing (adjust in production as needed)
+  observations:
+    annotations:
+      enabled: true # Enable @Observed (if you use observation annotations in code)
+
+otel:
+  # configure exporter
+  traces:
+    exporter: otlp
+    sampler: always_on
+  metrics:
+    exporter: otlp
+  # logs exportation inhibited for langfuse currently cannot support：https://cloud.langfuse.com
+  logs:
+    exporter: none
+  exporter:
+    otlp:
+      endpoint: "https://cloud.langfuse.com/api/public/otel"
+      headers:
+        Authorization: "Basic ${YOUR_BASE64_ENCODED_CREDENTIALS}" # echo -n "pk-xxx:sk-xxx" | base64
+      protocol: http/protobuf

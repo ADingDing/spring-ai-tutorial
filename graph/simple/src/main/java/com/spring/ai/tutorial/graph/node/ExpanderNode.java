@@ -33,9 +33,10 @@ public class ExpanderNode implements NodeAction {
         String query = state.value("query", "");
         Integer expanderNumber = state.value("expander_number", this.NUMBER);
 
+        String result = this.chatClient.prompt().user((user) -> user.text(DEFAULT_PROMPT_TEMPLATE.getTemplate()).param("number", expanderNumber).param("query", query)).call().content();
 
-        Flux<String> streamResult = this.chatClient.prompt().user((user) -> user.text(DEFAULT_PROMPT_TEMPLATE.getTemplate()).param("number", expanderNumber).param("query", query)).stream().content();
-        String result = streamResult.reduce("", (acc, item) -> acc + item).block();
+//        Flux<String> streamResult = this.chatClient.prompt().user((user) -> user.text(DEFAULT_PROMPT_TEMPLATE.getTemplate()).param("number", expanderNumber).param("query", query)).stream().content();
+//        String result = streamResult.reduce("", (acc, item) -> acc + item).block();
         List<String> queryVariants = Arrays.asList(result.split("\n"));
 
         HashMap<String, Object> resultMap = new HashMap<>();

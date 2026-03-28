@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: alibaba-video
+  ai:
+    dashscope:
+      api-key: ${AI_DASHSCOPE_API_KEY}
+      video:
+        options:
+          model: wan2.5-i2v-preview

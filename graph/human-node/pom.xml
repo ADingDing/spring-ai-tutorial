@@ -13,11 +13,6 @@
     <groupId>com.spring.ai.tutorial.graph.human</groupId>
     <artifactId>human-node</artifactId>
 
-    <properties>
-        <spring-ai-alibaba.version>1.0.0.3-SNAPSHOT</spring-ai-alibaba.version>
-
-    </properties>
-
     <dependencies>
 
         <dependency>

@@ -5,11 +5,62 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/observation/observability/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-nacos3-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-auth/server/mcp-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-auth/server/mcp-auth-web-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-auth/client/mcp-auth-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-auth/server/mcp-security-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/client/mcp-annotation-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/client/mcp-stdio-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/client/mcp-streamable-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/client/mcp-streamable-webflux-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/client/mcp-webflux-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/server/mcp-annotation-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/server/mcp-stdio-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/server/mcp-streamable-webflux-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/server/mcp-streamable-webmvc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-starter/server/mcp-webflux-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-supple/client/mcp-nacos3-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-supple/client/mcp-recovery-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-supple/client/mcp-return-direct-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-supple/server/mcp-gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-supple/server/mcp-nacos-parse-swagger-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/mcp-supple/server/mcp-nacos3-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/advisor/advisor-memory-neo4j/pom.xml" />
+        <option value="$PROJECT_DIR$/image/openai-image/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-annotation-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-auth-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-dynamic-tool-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-nacos3-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-recovery-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-return-direct-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-stdio-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-streamable-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-streamable-webflux-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/mcp-webflux-client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/client/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-annotation-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-auth-web-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-nacos-parse-swagger-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-nacos3-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-security-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-stdio-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-streamable-webflux-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-streamable-webmvc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/mcp-webflux-server/pom.xml" />
         <option value="$PROJECT_DIR$/mcp/server/mcp-webmvc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/mcp/server/pom.xml" />
+        <option value="$PROJECT_DIR$/observability/pom.xml" />
         <option value="$PROJECT_DIR$/rag/rag-evalution/pom.xml" />
       </set>
     </option>

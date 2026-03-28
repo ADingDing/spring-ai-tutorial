@@ -35,6 +35,8 @@ public class BeanController {
                 new ParameterizedTypeReference<BeanEntity>() {
                 }
         );
+        String format = converter.getFormat();
+        System.out.println("format: " + format);
         this.chatClient = builder
                 .build();
     }

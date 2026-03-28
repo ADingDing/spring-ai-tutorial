@@ -29,7 +29,6 @@
             <artifactId>spring-ai-autoconfigure-model-chat-client</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>com.alibaba.cloud.ai</groupId>
             <artifactId>spring-ai-alibaba-starter-memory</artifactId>

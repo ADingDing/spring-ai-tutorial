@@ -45,7 +45,7 @@ public class ParallelController {
         objectMap.put("expander_number", expanderNumber);
         objectMap.put("translate_language", translateLanguage);
 
-        Optional<OverAllState> invoke = this.compiledGraph.invoke(objectMap, runnableConfig);
+        Optional<OverAllState> invoke = this.compiledGraph.call(objectMap, runnableConfig);
 
         return invoke.map(OverAllState::data).orElse(new HashMap<>());
     }

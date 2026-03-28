@@ -22,7 +22,7 @@ import java.util.Map;
  * @date 2025/4/16:17:33
  */
 @RestController
-@RequestMapping("/redis")
+@RequestMapping("/vector/redis")
 public class RedisController {
 
     private static final Logger logger = LoggerFactory.getLogger(RedisController.class);

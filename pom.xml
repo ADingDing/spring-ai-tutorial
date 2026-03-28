@@ -22,35 +22,32 @@
         <module>advisor/advisor-memory-mysql</module>
         <module>advisor/advisor-memory-redis</module>
         <module>advisor/advisor-memory-sqlite</module>
-        <module>mcp/server/mcp-webflux-server</module>
-        <module>mcp/client/mcp-webflux-client</module>
-        <module>mcp/server/mcp-stdio-server</module>
-        <module>mcp/client/mcp-stdio-client</module>
         <module>vector/vector-redis</module>
         <module>rag/rag-etl-pipeline</module>
-        <module>mcp/server/mcp-nacos2-server</module>
-        <module>mcp/client/mcp-nacos2-client</module>
-        <module>mcp/server/mcp-nacos3-server</module>
-        <module>mcp/client/mcp-nacos3-client</module>
         <module>rag/rag-evaluation</module>
-        <module>observability</module>
         <module>graph/stream-node</module>
         <module>graph/human-node</module>
         <module>graph/simple</module>
         <module>graph/mcp-node</module>
         <module>graph/parallel-node</module>
-        <module>mcp/client/mcp-auth-client</module>
-        <module>mcp/server/mcp-auth-server</module>
         <module>other/restful</module>
         <module>other/nacos-swagger-restfult</module>
-        <module>mcp/server/mcp-nacos-parse-swagger-server</module>
-        <module>mcp/server/mcp-gateway-server</module>
         <module>other/nacos-restful</module>
-        <module>mcp/client/mcp-recovery-client</module>
-        <module>mcp/client/mcp-dynamic-tool-client</module>
-        <module>mcp/client/mcp-return-direct-client</module>
         <module>graph/observe-langfuse</module>
-        <module>mcp/client/mcp-streamable-client</module>
+        <module>advisor/advisor-deep-think</module>
+        <module>graph/agent/react-agent</module>
+        <module>graph/agent/reflection-agent</module>
+        <module>graph/parallel-stream-node</module>
+        <module>chat/chat-setting</module>
+        <module>advisor/advisor-memory-mem0</module>
+        <module>vector/vector-pgvector</module>
+        <module>observation/observability</module>
+        <module>observation/observability-langfuse</module>
+        <module>vector/vector-neo4j</module>
+        <module>mcp</module>
+        <module>image/alibaba-image</module>
+        <module>video/alibaba-video</module>
+        <module>deepresearch</module>
     </modules>
 
     <properties>
@@ -59,7 +56,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Spring AI -->
-        <spring-ai.version>1.0.1</spring-ai.version>
+        <spring-ai.version>1.1.0</spring-ai.version>
 
         <!-- Spring Boot -->
         <spring-boot.version>3.4.5</spring-boot.version>
@@ -69,7 +66,8 @@
         <sqlite.verson>3.49.1.0</sqlite.verson>
 
         <!-- Spring AI Alibaba -->
-        <spring-ai-alibaba.version>1.0.0.2</spring-ai-alibaba.version>
+        <spring-ai-alibaba.version>1.1.0.0-M4</spring-ai-alibaba.version>
+        <spring-ai-extensions.version>1.1.0.0-M4</spring-ai-extensions.version>
     </properties>
 
     <dependencyManagement>
@@ -88,10 +86,18 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
             <dependency>
                 <groupId>com.alibaba.cloud.ai</groupId>
                 <artifactId>spring-ai-alibaba-bom</artifactId>
                 <version>${spring-ai-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud.ai</groupId>
+                <artifactId>spring-ai-alibaba-extensions-bom</artifactId>
+                <version>${spring-ai-extensions.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -147,5 +153,36 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>flatten-maven-plugin</artifactId>
+                <version>1.5.0</version>
+                <configuration>
+                    <updatePomFile>true</updatePomFile>
+                    <flattenMode>resolveCiFriendliesOnly</flattenMode>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>flatten</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>flatten</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>flatten.clean</id>
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>

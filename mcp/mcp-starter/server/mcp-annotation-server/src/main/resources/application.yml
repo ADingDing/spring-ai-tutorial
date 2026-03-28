@@ -1,0 +1,30 @@
+server:
+  port: 19000
+
+spring:
+  application:
+    name: mcp-annotation-server
+  ai:
+    mcp:
+      server:
+        name: webflux-mcp-server
+        version: 1.0.0
+        type: SYNC  # Recommended for reactive applications
+        instructions: "This reactive server provides time information tools and resources"
+        sse-message-endpoint: /mcp/messages
+        capabilities:
+          tool: true
+          resource: true
+          prompt: true
+          completion: true
+        annotation-scanner:
+          enabled: true
+
+# 调试日志
+logging:
+  level:
+    io:
+      modelcontextprotocol:
+        client: DEBUG
+        spec: DEBUG
+        server: DEBUG

@@ -13,10 +13,6 @@
     <groupId>com.spring.ai.tutorial.graph</groupId>
     <artifactId>simple</artifactId>
 
-    <properties>
-        <spring-ai-alibaba.version>1.0.0.3-SNAPSHOT</spring-ai-alibaba.version>
-    </properties>
-
     <dependencies>
 
         <dependency>
@@ -32,7 +28,6 @@
         <dependency>
             <groupId>com.alibaba.cloud.ai</groupId>
             <artifactId>spring-ai-alibaba-graph-core</artifactId>
-            <version>${spring-ai-alibaba.version}</version>
         </dependency>
 
         <dependency>

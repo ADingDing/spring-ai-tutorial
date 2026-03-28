@@ -3,18 +3,34 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/advisor/advisor-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/advisor/advisor-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/advisor/advisor-deep-think/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/advisor/advisor-deep-think/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/advisor/advisor-memory-mem0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/advisor/advisor-memory-mem0/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/advisor/advisor-memory-mysql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/advisor/advisor-memory-mysql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/advisor/advisor-memory-neo4j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/advisor/advisor-memory-neo4j/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/advisor/advisor-memory-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/advisor/advisor-memory-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/advisor/advisor-memory-sqlite/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/advisor/advisor-memory-sqlite/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/alibaba-chat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/alibaba-chat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/chat-setting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/chat-setting/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/deepseek-chat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/deepseek-chat/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/openai-chat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/openai-chat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/deepresearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/deepresearch/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graph/agent/react-agent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graph/agent/react-agent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graph/agent/reflection-agent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graph/agent/reflection-agent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/human-node/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/human-node/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/mcp-node/src/main/java" charset="UTF-8" />
@@ -23,46 +39,86 @@
     <file url="file://$PROJECT_DIR$/graph/observe-langfuse/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/parallel-node/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/parallel-node/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graph/parallel-stream-node/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/graph/parallel-stream-node/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/simple/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/simple/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/stream-node/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/graph/stream-node/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-auth-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-auth-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/image/alibaba-image/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/image/alibaba-image/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/image/openai-image/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/image/openai-image/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-dynamic-tool-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-dynamic-tool-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos2-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos2-client/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos3-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-nacos3-client/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-recovery-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-recovery-client/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-return-direct-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-return-direct-client/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-stdio-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-stdio-client/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-streamable-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-streamable-client/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-webflux-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/client/mcp-webflux-client/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-auth-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-auth-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-gateway-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-gateway-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos-parse-swagger-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos-parse-swagger-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/authorization-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/client/mcp-auth-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/client/mcp-auth-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/client/mcp-security-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/client/mcp-security-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/server/mcp-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/server/mcp-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/server/mcp-auth-web-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/server/mcp-auth-web-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/server/mcp-security-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/server/mcp-security-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-annotation-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-annotation-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-stdio-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-stdio-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-streamable-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-streamable-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-streamable-webflux-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-streamable-webflux-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-webflux-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/client/mcp-webflux-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-annotation-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-annotation-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-stdio-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-stdio-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-streamable-webflux-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-streamable-webflux-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-streamable-webmvc-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-streamable-webmvc-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-webflux-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/server/mcp-webflux-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/client/mcp-nacos3-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/client/mcp-nacos3-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/client/mcp-recovery-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/client/mcp-recovery-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/client/mcp-return-direct-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/client/mcp-return-direct-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/server/mcp-gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/server/mcp-gateway-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/server/mcp-nacos-parse-swagger-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/server/mcp-nacos-parse-swagger-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/server/mcp-nacos3-registry-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/server/mcp-nacos3-registry-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/server/mcp-nacos3-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/server/mcp-nacos3-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/mcp-supple/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos2-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos2-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos3-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-nacos3-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-stdio-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-stdio-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-webflux-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mcp/server/mcp-webflux-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-webmvc-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mcp/server/mcp-webmvc-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/observability/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/observability/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observation/observability-langfuse/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observation/observability-langfuse/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observation/observability/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/observation/observability/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other/nacos-restful/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other/nacos-restful/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other/nacos-swagger-restfult/src/main/java" charset="UTF-8" />
@@ -87,9 +143,17 @@
     <file url="file://$PROJECT_DIR$/tool-calling/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vector/vector-elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vector/vector-elasticsearch/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vector/vector-neo4j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vector/vector-neo4j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vector/vector-pgvector/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vector/vector-pgvector/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vector/vector-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vector/vector-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vector/vector-simple/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vector/vector-simple/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video/alibaba-video/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video/alibaba-video/src/main/resources" charset="UTF-8" />
+    <file url="file:///src/main/java" charset="UTF-8" />
+    <file url="file:///src/main/resources" charset="UTF-8" />
   </component>
 </project>
